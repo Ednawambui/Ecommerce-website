@@ -1,0 +1,95 @@
+/*css for the products section*/
+
+.products-section {
+    font-size: 38px;
+    font-weight: 100;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+.products-section .prod {
+    height: 450px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.product-content {
+    display: flex;
+    align-items: center;
+}
+
+.prize {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.products-content .product-name{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.product1 {
+    background-image: url('../images/new-assets-images/pr1.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product2 {
+    background-image: url('../images/new-assets-images/pr2.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product3 {
+    background-image: url('../images/new-assets-images/pr3.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product4 {
+    background-image: url('../images/new-assets-images/pr4.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product5 {
+    background-image: url('../images/new-assets-images/pr5.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product6 {
+    background-image: url('../images/new-assets-images/pr6.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product7 {
+    background-image: url('../images/new-assets-images/pr7.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.product8 {
+    background-image: url('../images/new-assets-images/pr8.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}

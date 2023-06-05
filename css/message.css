@@ -1,0 +1,79 @@
+/*css for the furniture and basket collection section */
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.categories .furniture {
+    background-image: url('../images/new-assets-images/furn.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+.categories .basket {
+    background-image: url('../images/new-assets-images/bask.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    float: right;
+}
+
+.categories .message h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    row-gap: 10px;
+}
+
+.shopnow_btn {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    border-bottom: 0.5px solid black;
+}
+
+/*css for the mobile */
+
+@media (max-width:480px) {
+    .categories {
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+
+/*css for the tablet view */
+
+@media (min-width:768px) {
+    .categories {
+        flex-basis: 33.33%;
+        display: flex;
+        column-gap: 20px;
+        margin: 10px;
+    }
+}
+
+/*css for the desktop view */
+
+@media (min-width:992px) {
+    .categories {
+        flex-basis: 25%;
+        margin: 10px;
+    }
+}
+    
